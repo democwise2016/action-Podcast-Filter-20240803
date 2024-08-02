@@ -12,7 +12,31 @@ let feedList = [
     options: {
       maxItems: 3
     }
-  },  
+  },
+  {
+    title: '法客電台 - 政治歸政治',
+    feedID: 'plain-law-politics',
+    feedURL: 'https://feed.firstory.me/rss/user/ckudnw7fn4tqg0870axzgirva',
+    itemFilters: [
+      // ItemFiltersPreset.between10minTo120Min,
+      (item) => { return (item.title.indexOf('政治歸政治') > -1) }
+    ],
+    options: {
+      maxItems: 3
+    }
+  },
+  {
+    title: '迷走大學 - 認真講&不能講',
+    feedID: 'meisouniv-talk',
+    feedURL: 'https://feeds.soundon.fm/podcasts/2a9fb5ca-a9a9-4952-8dec-a42053797b6c.xml',
+    itemFilters: [
+      // ItemFiltersPreset.between10minTo120Min,
+      (item) => { return ((item.title.indexOf('今天認真講') > -1) || (item.title.indexOf('這個不能講') > -1)) }
+    ],
+    options: {
+      maxItems: 3
+    }
+  },
 ]
 
 // ---------------------------------------
