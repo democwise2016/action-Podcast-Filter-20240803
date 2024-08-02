@@ -3,8 +3,8 @@
 // const feedList = require('./config-list.js')
 
 let CONFIG = {
-  // publicURL: `https://democwise2016.github.io/action-Podcast-Filter-20240803/`,
-  publicURL: `https://dangerous-lizard-99.telebit.io/`,
+  publicURL: `https://democwise2016.github.io/action-Podcast-Filter-20240803/`,
+  // publicURL: `https://dangerous-lizard-99.telebit.io/`,
   
   publicURLShorten: `https://rb.gy/nyga5g`,
   thumbnailBorderColor: '9055A2',
