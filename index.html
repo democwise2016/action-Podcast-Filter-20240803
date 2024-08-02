@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ACTION-Podcast-Filter</title>
+  <script>
+  function copyPlainString (text) {
+    if (!navigator.clipboard) {
+      this.fallbackCopyTextToClipboard(text);
+      return;
+    }
+    navigator.clipboard.writeText(text).then(function () {
+      //console.log('Async: Copying to clipboard was successful!');
+    }, function (err) {
+      //console.error('Async: Could not copy text: ', err);
+    });
+  }
+  </script>
+</head>
+<body>
+<ol>
+<li>
+      <button type="button" style="font-size: 3rem" onclick="copyPlainString('https://democwise2016.github.io/action-Podcast-Filter-20240803/new-folder-feeds.soundon.fm-440650af0a.rss');this.style.color='red';">COPY</button>
+      <a href="https://democwise2016.github.io/action-Podcast-Filter-20240803/new-folder-feeds.soundon.fm-440650af0a.rss" target="_blank">呱吉 采翎 - 新資料夾</a>
+      (<a href="undefined" target="_blank">source</a>)
+    </li></ol>
+</body>
+</html>
