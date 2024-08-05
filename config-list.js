@@ -37,6 +37,19 @@ let feedList = [
       maxItems: 3
     }
   },
+  {
+    title: '科技報橘 - 科技早餐',
+    feedID: 'TechOrange',
+    feedURL: 'https://googlecloudpodcast.libsyn.com/rss',
+    itemFilters: [
+      // ItemFiltersPreset.between10minTo120Min,
+      (item) => { return ((item.title.indexOf('科技早餐') > -1)) }
+    ],
+    options: {
+      maxItems: 20
+    }
+  },
+  
 ]
 
 // ---------------------------------------
