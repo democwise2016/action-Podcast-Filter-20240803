@@ -1,0 +1,33 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:media="http://www.rssboard.org/media-rss" version="2.0">
+  <channel>
+    <title><![CDATA[科技報橘 - 科技早餐[PC+]]]></title>
+    <link>https://googlecloudpodcast.libsyn.com/rss</link>
+    <image>
+      <url>https://static.libsyn.com/p/assets/3/c/3/b/3c3b13ac1fc67854e5bbc093207a2619/logo_large.png</url>
+      <title><![CDATA[科技報橘 - 科技早餐[PC+]]]></title>
+      <link>https://googlecloudpodcast.libsyn.com/rss</link>
+    </image>
+    <language>en-us</language>
+    <atom:link href="https://googlecloudpodcast.libsyn.com/rss" rel="self" type="application/rss+xml"/>
+    <copyright><![CDATA[科技報橘 - 科技早餐[PC+]]]></copyright>
+    <itunes:author><![CDATA[科技報橘 - 科技早餐[PC+]]]></itunes:author>
+    <itunes:summary>
+      <![CDATA[
+      The Google Cloud Platform Podcast, coming to you every week. Discussing everything on Google Cloud Platform from App Engine to BigQuery.<br />
+<br />
+<a href="https://googlecloudpodcast.libsyn.com/rss" target="_blank">https://googlecloudpodcast.libsyn.com/rss</a>
+      ]]>
+    </itunes:summary>
+    <description>
+      <![CDATA[
+      The Google Cloud Platform Podcast, coming to you every week. Discussing everything on Google Cloud Platform from App Engine to BigQuery.<br />
+<br />
+<a href="https://googlecloudpodcast.libsyn.com/rss" target="_blank">https://googlecloudpodcast.libsyn.com/rss</a>
+      ]]>
+    </description>
+    <itunes:owner>
+      <itunes:name><![CDATA[科技報橘 - 科技早餐[PC+]]]></itunes:name>
+    </itunes:owner>
+    <itunes:image href="https://static.libsyn.com/p/assets/3/c/3/b/3c3b13ac1fc67854e5bbc093207a2619/logo_large.png"/>
+</channel>
+</rss>
