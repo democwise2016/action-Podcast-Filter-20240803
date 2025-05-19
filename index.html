@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ACTION-Podcast-Filter</title>
+  <script>
+  function copyPlainString (text) {
+    if (!navigator.clipboard) {
+      this.fallbackCopyTextToClipboard(text);
+      return;
+    }
+    navigator.clipboard.writeText(text).then(function () {
+      //console.log('Async: Copying to clipboard was successful!');
+    }, function (err) {
+      //console.error('Async: Could not copy text: ', err);
+    });
+  }
+  </script>
+</head>
+<body>
+<ol>
+<li>
+      <button type="button" style="font-size: 3rem" onclick="copyPlainString('https://democwise2016.github.io/action-Podcast-Filter-20240803/new-folder-feeds.soundon.fm-440650af0a.rss');this.style.color='red';">COPY</button>
+      <a href="https://democwise2016.github.io/action-Podcast-Filter-20240803/new-folder-feeds.soundon.fm-440650af0a.rss" target="_blank">呱吉 采翎 - 新資料夾</a>
+      (<a href="undefined" target="_blank">source</a>)
+    </li>
+<li>
+      <button type="button" style="font-size: 3rem" onclick="copyPlainString('https://democwise2016.github.io/action-Podcast-Filter-20240803/plain-law-politics-feed.firstory.me-2c6e1428ef.rss');this.style.color='red';">COPY</button>
+      <a href="https://democwise2016.github.io/action-Podcast-Filter-20240803/plain-law-politics-feed.firstory.me-2c6e1428ef.rss" target="_blank">法客電台 - 政治歸政治</a>
+      (<a href="undefined" target="_blank">source</a>)
+    </li>
+<li>
+      <button type="button" style="font-size: 3rem" onclick="copyPlainString('https://democwise2016.github.io/action-Podcast-Filter-20240803/TechOrange-feeds.soundon.fm-1d97aedfec.rss');this.style.color='red';">COPY</button>
+      <a href="https://democwise2016.github.io/action-Podcast-Filter-20240803/TechOrange-feeds.soundon.fm-1d97aedfec.rss" target="_blank">科技報橘 - 科技早餐</a>
+      (<a href="undefined" target="_blank">source</a>)
+    </li>
+<li>
+      <button type="button" style="font-size: 3rem" onclick="copyPlainString('https://democwise2016.github.io/action-Podcast-Filter-20240803/meisouniv-talk-feeds.soundon.fm-ab250fba23.rss');this.style.color='red';">COPY</button>
+      <a href="https://democwise2016.github.io/action-Podcast-Filter-20240803/meisouniv-talk-feeds.soundon.fm-ab250fba23.rss" target="_blank">迷走大學 - 認真講&不能講</a>
+      (<a href="undefined" target="_blank">source</a>)
+    </li></ol>
+</body>
+</html>
